@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/whatsapp", "destination": "https://wa.me/tu_numero", "permanent": true }
+  ]
+}
