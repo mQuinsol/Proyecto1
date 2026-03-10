@@ -15,19 +15,3 @@ document.querySelectorAll('.nav-link').forEach(link => {
         navMenu.classList.remove('active');
     });
 });
-
-<script>
-    const menuToggle = document.getElementById('mobile-menu');
-    const navMenu = document.getElementById('nav-menu');
-
-    menuToggle.addEventListener('click', () => {
-        navMenu.classList.toggle('active');
-    });
-
-    // Cerrar menú al hacer click en un enlace
-    document.querySelectorAll('.nav-link').forEach(link => {
-        link.addEventListener('click', () => {
-            navMenu.classList.remove('active');
-        });
-    });
-</script>
